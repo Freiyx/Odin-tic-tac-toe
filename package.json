@@ -1,0 +1,31 @@
+{
+  "name": "odin-tic-tac-toe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./",
+    "lint-fix": "eslint ./ --fix",
+    "dev": "parcel ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Freiyx/Odin-tic-tac-toe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Freiyx/Odin-tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/Freiyx/Odin-tic-tac-toe#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "eslint": "^8.40.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "parcel": "^2.8.3",
+    "prettier": "^2.8.8",
+    "sass": "^1.62.1"
+  }
+}
